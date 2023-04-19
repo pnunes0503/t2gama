@@ -81,7 +81,7 @@ async function API(){
      async function function_editar (){
 
      const editar = await fetch('https://soundgarden-api.vercel.app/events/'+_id, {method: 'PUT',
-     headers: {'content-type': 'application/json; charset=UTF-8'; Access-Control-Allow-Origin;},
+     headers: {'content-type': 'application/json; charset=UTF-8',},
          
          body: JSON.stringify({
             "name": nome_valor ,
