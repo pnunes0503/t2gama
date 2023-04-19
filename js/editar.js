@@ -1,6 +1,6 @@
 let url = window.location.href 
 
-let _id = url.replace('http://127.0.0.1:5500/editar-evento.html?id=', '')
+let _id = url.replace('https://pnunes0503.github.io/t2gama/editar-evento.html?id=', '')
 
 console.log(_id)
 
