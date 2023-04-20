@@ -12,7 +12,9 @@ Array.from(botao).map((b)=>{
 console.log(botao)
 
 banner.style.cssText = `
-background-image: url('img/logo-banner.png')
+background-image: url('img/logo-banner.png');
+background-size: cover;
+background-repeat: no-repeat;
 `
 banner.innerText = ``
 
